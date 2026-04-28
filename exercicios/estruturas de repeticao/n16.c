@@ -13,13 +13,16 @@ int main(){
     soma = 0;
     totalN = 0;
 
+    scanf("%d", &n);
+
     while(n >= 0){
-        scanf("%d", &n);
 
         if(n >= 0){
             soma = soma + n;
             totalN++;
         }
+        
+        scanf("%d", &n);
     }
 
     media = (float)soma / totalN;
